@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Signup Form</title>
+	
+	<!-- =========== css link ============ -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- ========== Iconscout css ======= -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	
+</head>
+<body>
+	
+	<div class="container">
+		<header>Regisration</header>
+
+		<!-- form -->
+		<form action="#">
+			<div class="form first" id="first">
+				<div class="details personal">
+					<span class="title">Personal Details</span>
+
+					<div class="fields">
+
+						<div class="input-field">
+							<label for="fullName">Full Name<span>*</span></label>
+							<input type="text" placeholder="Enter your name" id="fullName">
+						</div>
+
+						<div class="input-field">
+							<label for="birthday">Date of Birth<span>*</span></label>
+							<input type="date" placeholder="Enter birth day" id="birthday">
+						</div>
+
+						<div class="input-field">
+							<label for="email">E-mail</label>
+							<input type="email" placeholder="Enter your emaill" id="email">
+						</div>
+
+						<div class="input-field">
+							<label for="number">Mobile Number<span>*</span></label>
+							<input type="number" placeholder="Enter mobile number" id="number">
+						</div>
+
+						<div class="input-field">
+							<label for="gender">Gender<span>*</span></label>
+							<input type="text" placeholder="Enter your gender" id="gender">
+						</div>
+
+						<div class="input-field">
+							<label for="occupation">Occupation<span>*</span></label>
+							<input type="text" placeholder="Enter your occupation" id="occupation">
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- personal details end -->
+
+				<div class="details ID">
+					<span class="title">Identity Details</span>
+
+					<div class="fields">
+
+						<div class="input-field">
+							<label for="id">ID Type<span>*</span></label>
+							<input type="text" placeholder="Enter ID type" id="id">
+						</div>
+
+						<div class="input-field">
+							<label for="idNumber">ID Number<span>*</span></label>
+							<input type="number" placeholder="Enter ID number" id="idNumber">
+						</div>
+
+						<div class="input-field">
+							<label for="issuedauthority">Issued Authority<span>*</span></label>
+							<input type="text" placeholder="Enter issued authority" id="issuedauthority">
+						</div>
+
+						<div class="input-field">
+							<label for="issuedState">Issued State<span>*</span></label>
+							<input type="text" placeholder="Enter issued state" id="issuedState">
+						</div>
+
+						<div class="input-field">
+							<label for="issuedDate">Issued Date</label>
+							<input type="date" placeholder="Enter issued date" id="issuedDate">
+						</div>
+
+						<div class="input-field">
+							<label for="expirydate">Expiry Date</label>
+							<input type="date" placeholder="Enter expiry date" id="expirydate">
+						</div>
+						
+					</div>
+
+
+					<!-- button -->
+					<button class="nextBtn" id="nextBtn">
+						<span class="btnText">Next</span>
+						<i class='bx bx-right-arrow-circle' ></i>
+					</button>
+				</div>
+			</div>
+
+			<!-- Second from -->
+
+			<div class="form" id="second">
+				<div class="details address">
+					<span class="title">Address Details</span>
+
+					<div class="fields">
+
+						<div class="input-field">
+							<label for="addressType">Address Type<span>*</span></label>
+							<input type="text" placeholder="Enter address type" id="addressType">
+						</div>
+
+						<div class="input-field">
+							<label for="nationality">Nationality<span>*</span></label>
+							<input type="text" placeholder="Enter nationality" id="nationality">
+						</div>
+
+						<div class="input-field">
+							<label for="state">State<span>*</span></label>
+							<input type="text" placeholder="Enter your state" id="state">
+						</div>
+
+						<div class="input-field">
+							<label for="district">District<span>*</span></label>
+							<input type="text" placeholder="Enter your district" id="district">
+						</div>
+
+						<div class="input-field">
+							<label for="blockNumber">Block Number</label>
+							<input type="number" placeholder="Enter block number" id="blockNumber">
+						</div>
+
+						<div class="input-field">
+							<label for="wordNumber">Word Number<span>*</span></label>
+							<input type="number" placeholder="Enter word number" id="wordNumber">
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- Address Details end -->
+
+				<div class="details family">
+					<span class="title">Family Details</span>
+
+					<div class="fields">
+
+						<div class="input-field">
+							<label for="father">Father's Name<span>*</span></label>
+							<input type="text" placeholder="Enter father's name" id="father">
+						</div>
+
+						<div class="input-field">
+							<label for="mother">Mother's Name<span>*</span></label>
+							<input type="text" placeholder="Enter mother's name" id="mother">
+						</div>
+
+						<div class="input-field">
+							<label for="grandfather">Grandfather's Name<span>*</span></label>
+							<input type="text" placeholder="Enter grandfather's name" id="grandfather">
+						</div>
+
+						<div class="input-field">
+							<label for="spouseName">Spouse Name</label>
+							<input type="text" placeholder="Enter issued state" id="spouseName">
+						</div>
+
+						<div class="input-field">
+							<label for="fatherInLaw">Father in Law</label>
+							<input type="text" placeholder="Father in law name" id="fatherInLaw">
+						</div>
+
+						<div class="input-field">
+							<label for="motherInLaw">Mother in Law</label>
+							<input type="text" placeholder="Mother in law name" id="motherInLaw">
+						</div>
+						
+					</div>
+
+
+					<!-- button -->
+					<div class="buttons">
+						<button class="backBtn" id="backBtn">
+							<i class='bx bx-left-arrow-circle' ></i>
+							<span class="btnText">Back</span>
+						</button>
+
+
+						<button class="nextBtn">
+							<span class="btnText">Submit</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	
+
+	<!-- javascript -->
+	<script src="js/jquery-3.6.4.min.js"></script>
+	<script src="js/meain.js"></script>
+</body>
+</html>
